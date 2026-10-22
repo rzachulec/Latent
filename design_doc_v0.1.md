@@ -33,18 +33,18 @@ Regulamin przedmiotu definiuje cztery role (A–D) dla 3–4-osobowych zespołó
 
 | Rola oryginalna | Zakres webowy | Odpowiednik natywny w Latent | Osoba |
 |---|---|---|---|
-| **A – Backend i Integracje AI** | Baza danych, logika API, integracja LLM, inżynieria promptów | Potok rejestracji i przetwarzania obrazu (AVFoundation, Core Image, Metal), model SwiftData i migracje, warstwa wywołań narzędzi AI, projektowanie promptów | **[Twoje Imię]** |
+| **A – Backend i Integracje AI** | Baza danych, logika API, integracja LLM, inżynieria promptów | Potok rejestracji i przetwarzania obrazu (AVFoundation, Core Image, Metal), model SwiftData i migracje, warstwa wywołań narzędzi AI, projektowanie promptów | **Jan Narozny** |
 | **B – Frontend i UI/UX** | Interfejs React/Vue, komunikacja z API, prezentacja wyników AI | Interfejs SwiftUI, UX wizjera, ekrany galerii i „ciemni", prezentacja sugestii AI, dostępność | **Jan Naklicki** |
 | **C – QA i DevOps** | Testy, CI/CD, wdrożenie w chmurze | Swift Testing/XCTest, testy UI, testy regresyjne potoku obrazu, GitHub Actions (runnery macOS) lub Xcode Cloud, dystrybucja przez TestFlight | **Jan Naklicki** |
-| **D – Dane i Walidacja AI** | Struktury danych, logowanie LLM, optymalizacja tokenów, testy prompt injection | Logowanie interakcji z AI, metryki opóźnień i tokenów, strategia awaryjna, testy prompt injection i błędnych odpowiedzi modelu | **Podział:** logowanie i metryki → [Twoje Imię]; testy adwersaryjne → Jan |
-| **Scrum Master / PM** | Koordynacja sprintów | Backlog w GitHub Projects, planowanie sprintów, przygotowanie demo | **[Twoje Imię]** |
+| **D – Dane i Walidacja AI** | Struktury danych, logowanie LLM, optymalizacja tokenów, testy prompt injection | Logowanie interakcji z AI, metryki opóźnień i tokenów, strategia awaryjna, testy prompt injection i błędnych odpowiedzi modelu | **Podział:** logowanie i metryki → Jan Narozny; testy adwersaryjne → Jan |
+| **Scrum Master / PM** | Koordynacja sprintów | Backlog w GitHub Projects, planowanie sprintów, przygotowanie demo | **Jan Narozny** |
 
 ### 2.2 Mechanizm Senior / Junior (dwuosobowy krąg wiedzy)
 
 | Student | Rola Seniora (czego uczę) | Mój Mentor | Czego się uczę | Dowód w Git |
 |---|---|---|---|---|
-| [Twoje Imię] | Potok obrazu, shadery Metal, wywołania narzędzi AI | Jan Naklicki | Architektura SwiftUI, XCTest/CI | PR #… (testy napisane przeze mnie, recenzja: Jan) |
-| Jan Naklicki | SwiftUI, testowanie, CI/CD | [Twoje Imię] | Podstawy Core Image / Metal, dekodowanie RAW | PR #… (funkcja shadera autorstwa Jana, recenzja: ja) |
+| Jan Narozny | Potok obrazu, shadery Metal, wywołania narzędzi AI | Jan Naklicki | Architektura SwiftUI, XCTest/CI | PR #… (testy napisane przeze mnie, recenzja: Jan) |
+| Jan Naklicki | SwiftUI, testowanie, CI/CD | Jan Narozny | Podstawy Core Image / Metal, dekodowanie RAW | PR #… (funkcja shadera autorstwa Jana, recenzja: ja) |
 
 Każda osoba musi scalić co najmniej jeden nietrywialny PR z dziedziny, w której jest juniorem, zrecenzowany przez seniora. Te PR-y stanowią dowód do Karty Transferu Wiedzy (Tydzień 14).
 
